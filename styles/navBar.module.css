@@ -1,0 +1,168 @@
+.navBar-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.hamburger-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20px;
+    border-radius: 10px;
+    background-color: rgba(56, 56, 56, 0.909);
+    width: 3.5em;
+    height: 3.5em;
+    z-index: 12;
+    transition: all 300ms;
+}
+.hamburger-container:hover {
+    background-color: rgb(56, 56, 56);
+    cursor: pointer;
+}
+
+.phone-number-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    position: relative;
+    box-shadow:  1px 1px 10px 1px rgba(181, 178, 178, 0.527);
+    background-color: rgba(241, 241, 241, 0.943);
+    border-radius: 10px;
+    height: 3.5em;
+    width: 15em;
+    z-index: 8;
+    transition: all 300ms;
+}
+.phone-number-container:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.phone-icon {
+    left: 0.5em;
+    width: 2em;
+}
+
+.phone-number {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.nav {
+    visibility: collapse;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:  1px 1px 10px 1px rgba(181, 178, 178, 0.527);
+    background-color: rgba(241, 241, 241, 0.943);
+    border-radius: 10px;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    height: 3.5em;
+    width: 45em;
+}
+
+.nav-item-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 10px;
+    height: 85%;
+    width: 19.5%;
+    transition: all 300ms;
+}
+.nav-item-desktop:hover {
+    cursor: pointer;
+    box-shadow:  1px 1px 10px 1px rgba(255, 255, 255, 0.527);
+    background-color: rgb(199, 224, 255);
+}
+
+.nav-item-desktop-active {
+    cursor: pointer;
+    box-shadow:  1px 1px 10px 1px rgba(255, 255, 255, 0.527);
+    background-color: rgb(194, 228, 255);
+}
+
+.mobile-menu-container {
+    background-color: #fff;
+    position: fixed;
+    top: 0em;
+    left: 0em;
+    width: 100%;
+    height: 18em;
+    z-index: 9;
+}
+
+.menu-title {
+    text-align: center;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow:  1px 1px 10px 1px rgba(181, 178, 178, 0.527);
+    height: 2em;
+    width: 60%;
+    transition: all 300ms;
+}
+.nav-item:hover {
+    cursor: pointer;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(194, 228, 255);
+}
+.nav-item-active {
+    background-color: rgb(96, 184, 255);
+}
+
+.fixed {
+    position: fixed;
+    z-index: 10;
+}
+
+@media (min-width: 1000px) {
+    .nav {
+        visibility: visible;
+        position: relative;
+    }
+    .hamburger-container {
+        visibility: collapse;
+        position: fixed;
+    }
+}
+
+@media (max-width: 400px) {
+    .navBar-container {
+        justify-content: flex-start;
+    }
+    .phone-number-container {
+        margin-left: 0.5em;
+        left: 4em;
+    }
+    .hamburger-container {
+        left: 0.5em;
+    }
+}

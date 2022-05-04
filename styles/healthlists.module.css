@@ -1,0 +1,151 @@
+.health-list-container {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    gap: 10%;
+}
+
+.reference-pic {
+    width: 350px;
+    height: 350px;
+}
+
+.common-cases-container {
+    box-shadow:  1px 1px 10px 1px rgba(199, 199, 199, 0.527);
+    border-radius: 10px;
+    margin-bottom: 100px;
+    height: 100%;
+    width: 95%;
+    max-width: 520px;
+}
+
+.NHS-waiting-list {
+    box-shadow:  1px 1px 10px 1px rgba(199, 199, 199, 0.527);
+    border-radius: 10px;
+    height: 100%;
+    width: 95%;
+    max-width: 520px;
+}
+
+.list-title {
+    text-align: center;
+}
+
+.health-list {
+    max-height: 320px;
+    flex-wrap: wrap;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.health-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  1px 1px 5px 1px rgba(199, 199, 199, 0.527);
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    background: -webkit-linear-gradient(rgb(50, 173, 255), rgb(0, 20, 75));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.health-list-item-nhs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  1px 1px 5px 1px rgba(199, 199, 199, 0.527);
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    background: -webkit-linear-gradient(rgb(255, 115, 0), rgb(173, 20, 20));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.border-left {
+    border-left: none;
+}
+
+
+@media (min-width: 1000px) {
+    .health-list-container {
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        width: 50%;
+        gap: 20%;
+    }
+    .common-cases-container {
+        box-shadow:  1px 1px 10px 1px rgba(199, 199, 199, 0.527);
+        border-radius: 10px;
+        overflow-y: auto;
+        height: 500px;
+        max-width: 350px;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .NHS-waiting-list {
+        box-shadow:  1px 1px 10px 1px rgba(199, 199, 199, 0.527);
+        border-radius: 10px;
+        overflow-y: auto;
+        height: 500px;
+        max-width: 350px;
+        width: 100%;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    .health-list {
+        max-height: 320px;
+        width: 100%;
+        overflow: visible;
+        overflow-y: visible;
+    }
+    .health-list-item {
+        box-shadow:  1px 1px 5px 1px rgba(199, 199, 199, 0.527);
+        width: 90%;
+        border-radius: 5px;
+        border: none;
+    }
+    .health-list-item-nhs {
+        box-shadow:  1px 1px 5px 1px rgba(199, 199, 199, 0.527);
+        width: 90%;
+        border-radius: 5px;
+        border: none;
+    }
+    .list-title {
+        text-align: center;
+    }
+    .common-cases-container::-webkit-scrollbar {
+        display: none;
+    }
+    .NHS-waiting-list::-webkit-scrollbar {
+        display: none;
+    }
+    .border-left {
+        border-left: solid 2px rgb(212, 212, 212);
+    }
+}
+
+@media (min-width: 1200px) {
+    .health-list-container {
+        width: 60em;
+    }
+    .common-cases-container {
+        width: 70%;
+        max-width: none;
+    }
+    .NHS-waiting-list {
+        width: 70%;
+        max-width: none;
+    }
+}

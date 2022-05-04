@@ -1,0 +1,28 @@
+.UsAndYou-container {
+    margin-top: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.UsAndYou-text-container {
+    padding: 1em;
+    box-shadow:  1px 1px 10px 1px rgba(199, 199, 199, 0.527);
+    background-color: #fff;
+    border-radius: 10px;
+    width: 80%;
+}
+.UsAndYou-text-container:hover {
+    cursor: pointer;
+}
+
+.UsAndYou-title {
+    font-weight: 700;
+}
+
+.UsAndYou-paragraph {
+    padding: 1em;
+    width: 90%;
+}

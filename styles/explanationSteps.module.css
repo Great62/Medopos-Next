@@ -1,0 +1,76 @@
+.steps-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.step {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 35em;
+    width: 100%;
+}
+
+.step-picture {
+    position: absolute;
+    top: 14%;
+    width: 50%;
+    max-width: 23em;
+    min-width: 300px;
+}
+
+.step-text {
+    position: absolute;
+    bottom: 0px;
+    max-width: 25em;
+}
+.step-title {
+    text-align: center;
+    font-size: 1.6rem;
+}
+.step-explained {
+    text-align: center;
+    font-weight: 600;
+    color: rgb(27, 27, 27);
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.picture-lower {
+    top: 30%;
+}
+
+@media (min-width: 1000px) {
+    .step {
+        flex-direction: row;
+        gap: 10em;
+    }
+    .step-picture {
+        position: relative;
+        top: 0px;
+    }
+    .step-text {
+        max-width: 30em;
+        position: relative;
+    }
+}
+
+@media (min-width: 1100px) {
+    .step {
+        gap: 15em;
+        height: 20em;
+    }
+    .step-text {
+        max-width: 30em;
+        position: relative;
+    }
+    .step-picture {
+        top: 0px;
+    }
+}

@@ -1,0 +1,99 @@
+.pitch {
+    height: 32%;
+    width: 100%;
+}
+
+.pitch-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.pitch-text-main {
+    margin: 0;
+    margin-top: 10px;
+    width: 90%;
+    max-width: 415px;
+    text-align: center;
+    font-size: 1.9rem;
+}
+.pitch-text-explain {
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+    margin: 0;
+    margin-top: 20px;
+    width: 95%;
+    max-width: 465px;
+    text-align: center;
+}
+
+
+.pitch-image-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.pitch-image {
+    width: 60%;
+    max-width: 300px;
+}
+
+.pitch-image-desktop {
+    visibility: collapse;
+    position: fixed;
+    width: 400px;
+}
+
+
+@media (min-width: 1000px) {
+    .pitch {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        height: 50%;
+        width: 100%;
+    }
+
+    .pitch-image {
+        visibility: collapse;
+        position: fixed;
+    }
+
+    .pitch-text {
+        display: flex;
+        align-items: initial;
+        justify-content: center;
+        flex-direction: column;
+        height: 100%;
+        margin-left: 30px;
+    }
+
+    .pitch-image-desktop {
+        visibility: visible;
+        position: relative;
+        width: 400px;
+    }
+
+    .pitch-text-main {
+        text-align: left;
+        min-width: 415px;
+        font-size: 2.6rem;
+        max-width: 550px;
+    }
+    .pitch-text-explain {
+        text-align: left;
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .pitch {
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        height: 50%;
+        width: 100%;
+    }
+}

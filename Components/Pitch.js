@@ -11,8 +11,9 @@ function Pitch() {
           Cancelled operation? Long waiting list?
         </h2>
         <h4 className={styles["pitch-text-explain"]}>
-          Compass Elective can direct you to private treatment overseas, by top
-          physicians without delay and at surprisingly reasonable cost.
+          <h1 className={styles.boldText}>Medopos</h1> can direct you to
+          <h1 className={styles.plainText}> private treatment overseas</h1>, by
+          top physicians without delay and at surprisingly reasonable cost.
         </h4>
       </div>
       <div className={styles["pitch-image-desktop"]}>

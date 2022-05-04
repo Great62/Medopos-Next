@@ -46,6 +46,30 @@
     width: 400px;
 }
 
+.plainText {
+    font-weight: 500;
+    font-size: 1rem;
+    width: min-content;
+    margin: 0em;
+    display: initial;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+}
+
+.boldText {
+    font-weight: 700;
+    font-size: 1rem;
+    width: min-content;
+    margin: 0em;
+    display: initial;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+}
+
 
 @media (min-width: 1000px) {
     .pitch {

@@ -23,7 +23,7 @@ function LandingPage() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="Medopos is a health service that provides you with private treatment overseas to skip local waiting lists and get treated quickly"
+          content="Medopos is a health service that provides you with private treatment overseas to skip local waiting lists and get treated quickly. This is a service proposed by CompassElective Ltd"
         />
       </Head>
       <NavBar />

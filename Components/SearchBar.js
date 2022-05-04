@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../Styles/searchBar.module.css";
+import styles from "../styles/searchBar.module.css";
 import searchSvg from "../Pictures/search_black_24dp.svg";
 import closeSvg from "../Pictures/close_black_24dp.svg";
 import { services } from "../Data";

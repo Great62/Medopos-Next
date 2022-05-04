@@ -1,6 +1,6 @@
 import React from "react";
 import plane from "../Pictures/Flying around the world-pana.svg";
-import styles from "../Styles/Pitch.module.css";
+import styles from "../styles/Pitch.module.css";
 import Image from "next/image";
 
 function PitchImage() {

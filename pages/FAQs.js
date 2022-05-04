@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
-import styles from "../Styles/FAQs.module.css";
+import styles from "../styles/FAQs.module.css";
 import { motion, AnimatePresence } from "framer-motion";
 
 function FAQs() {

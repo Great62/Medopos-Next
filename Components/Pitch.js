@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Styles/Pitch.module.css";
+import styles from "../styles/Pitch.module.css";
 import flight from "../Pictures/Flying around the world-pana.svg";
 import Image from "next/image";
 

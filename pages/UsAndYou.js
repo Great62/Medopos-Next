@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../Styles/usAndYou.module.css";
+import styles from "../styles/usAndYou.module.css";
 import UsAndYouText2 from "../Components/UsAndYouText2";
 import UsAndYouText1 from "../Components/UsAndYouText1";
 import UsAndYouText3 from "../Components/UsAndYouText3";

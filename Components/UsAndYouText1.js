@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Styles/usAndYou.module.css";
+import styles from "../styles/usAndYou.module.css";
 import { motion, AnimatePresence } from "framer-motion";
 import { blur } from "../Pages/UsAndYou.js";
 

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "../Styles/navBar.module.css";
+import styles from "../styles/navBar.module.css";
 import { motion, AnimatePresence } from "framer-motion";
 import phone from "../Pictures/call_black_24dp.svg";
 import menu from "../Pictures/menu_white_24dp.svg";

@@ -1,4 +1,4 @@
-import styles from "../../Styles/legals.module.css";
+import styles from "../../styles/legals.module.css";
 import React from "react";
 
 function article13() {

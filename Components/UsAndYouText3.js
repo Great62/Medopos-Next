@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from "framer-motion";
-import styles from "../Styles/usAndYou.module.css";
+import styles from "../styles/usAndYou.module.css";
 import React from "react";
 
 function UsAndYouText3({ setBlurOn, blurOn }) {

@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
 import styles from "../styles/legals.module.css";
-import stylesUsAndYou from "../styles/UsAndYou.module.css";
+import stylesUsAndYou from "../styles/usAndYou.module.css";
 
 //articles
 import Article1 from "../Components/articles/Article1";

@@ -58,7 +58,11 @@ function SearchBar() {
           <div className={styles["data-search-result"]}>
             {filteredData.slice(0, 15).map((value, key) => {
               return (
-                <div className={styles["data-search-item"]} target="_blank">
+                <div
+                  key={key}
+                  className={styles["data-search-item"]}
+                  target="_blank"
+                >
                   <p>{value}</p>
                 </div>
               );

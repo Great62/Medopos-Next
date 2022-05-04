@@ -24,14 +24,14 @@ function GoingPrivate() {
           possible via what is known as the S2 route to get the cost of your
           treatment refunded by the NHS the hurdles are daunting. Only state
           hospitals are eligible, while the best clinics are excluded. We can
-          try to help (it's part of our agreement with you) but you need to be
-          realistic and know that you will always be required to pay up front
+          try to help (it&aposs part of our agreement with you) but you need to
+          be realistic and know that you will always be required to pay up front
           and that out of pocket expenses are never reimbursed. Fortunately
-          there are options that don't cost an arm and a leg.
+          there are options that don&apost cost an arm and a leg.
           <br />
           <br />
-          In 2018, despite the "free at the point of use" NHS model, 11% of
-          elective surgeries were privately funded. If it was possible, the
+          In 2018, despite the &quotfree at the point of use&quot NHS model, 11%
+          of elective surgeries were privately funded. If it was possible, the
           proportion today would be greater. This is despite the fact that
           private treatment in the UK is more expensive than in most European
           countries. The international medical market is growing fast. For some
@@ -60,7 +60,7 @@ function GoingPrivate() {
           operating theatres. The government has allotted £5.4 billion for
           additional operations, but with five million on the waiting list that
           is a little over a thousand pounds per operation. There are few
-          operations that don't cost significantly more. For example the
+          operations that don&apost cost significantly more. For example the
           commonest procedure, cataract removal, costs about £3,500 in the NHS
           internal market, about £4,000 privately in the UK. A gallstone
           operation runs to over £5,000 and another common operation, abdominal
@@ -78,15 +78,15 @@ function GoingPrivate() {
           tailored to demand, not a national budget. This leads to a faster and
           more efficient service. You may wonder why top class surgeons stay at
           home when they could earn a fortune in the US (or half a fortune in
-          the NHS). Perhaps it's because they enjoy their family and friends,
-          their lower cost of living, their status in their community and the
-          pleasure of following their vocation. Prices can vary wildly from
-          clinic to clinic and from country to country. For example an operation
-          in Poland might cost a tenth of the price in the USA and less than a
-          fifth than in Switzerland. It is true that not all hospitals achieve
-          even the minimum UK standards, but many exceed them. Finding the best
-          care, the right combination of price, quality and timeliness is our
-          job, and we thank you for choosing Compass Elective.
+          the NHS). Perhaps it&aposs because they enjoy their family and
+          friends, their lower cost of living, their status in their community
+          and the pleasure of following their vocation. Prices can vary wildly
+          from clinic to clinic and from country to country. For example an
+          operation in Poland might cost a tenth of the price in the USA and
+          less than a fifth than in Switzerland. It is true that not all
+          hospitals achieve even the minimum UK standards, but many exceed them.
+          Finding the best care, the right combination of price, quality and
+          timeliness is our job, and we thank you for choosing Compass Elective.
         </div>
       </div>
       <Footer />

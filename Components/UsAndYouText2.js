@@ -24,12 +24,12 @@ function UsAndYouText2({ setBlurOn, blurOn }) {
         improvement (quality of life) is worth X amount of money. Do not expect
         doctors or friends to know anything about overseas clinics. (To be fair,
         someone who has been treated for a bee sting in, say, Barcelona, can at
-        least report that the A&E department was clean. But you're not going to
-        A&E.) Avoid any hard sell, especially from clinics, or indeed us. Do not
-        take a hasty decision. Focus on the quality of care, especially if your
-        case is complex. Think carefully about your priorities, we use them to
-        select clinics. Your UK doctor will be in charge of your after care on
-        return to the UK. Check that he is happy to get your medical notes
+        least report that the A&E department was clean. But you&aposre not going
+        to A&E.) Avoid any hard sell, especially from clinics, or indeed us. Do
+        not take a hasty decision. Focus on the quality of care, especially if
+        your case is complex. Think carefully about your priorities, we use them
+        to select clinics. Your UK doctor will be in charge of your after care
+        on return to the UK. Check that he is happy to get your medical notes
         through us. Be prepared to follow rigorously the recommendations about
         physiotherapy, diet, check ups, etc.
       </div>

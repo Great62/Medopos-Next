@@ -35,7 +35,7 @@ function UsAndYouText3({ setBlurOn, blurOn }) {
         third questionnaire, which the clinic / hospital may require before
         travel (recommended) or on arrival. We recommend that you pay your
         treatment fees through us, which eliminates your exchange rate risk,
-        though you may choose to pay the clinic's fee and our commission
+        though you may choose to pay the clinic&aposs fee and our commission
         separately. Organise your travel (we can assist.) Allow for the
         unexpected.
       </div>

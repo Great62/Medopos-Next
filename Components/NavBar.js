@@ -5,6 +5,7 @@ import phone from "../Pictures/call_black_24dp.svg";
 import menu from "../Pictures/menu_white_24dp.svg";
 import close from "../Pictures/close_white_24dp.svg";
 import Image from "next/image";
+import Link from "next/link";
 
 function NavBar() {
   //path related
@@ -66,48 +67,54 @@ function NavBar() {
               )}
             </AnimatePresence>
             <div className={styles["nav"]}>
-              <a
-                className={`${styles["nav-item-desktop"]} ${
-                  currentPath === "/" && styles["nav-item-desktop-active"]
-                } `}
-                href="/"
-              >
-                Home
-              </a>
-              <a
-                className={`${styles["nav-item-desktop"]} ${
-                  currentPath === "/UsAndYou" &&
-                  styles["nav-item-desktop-active"]
-                } `}
-                href="/UsAndYou"
-              >
-                Us and you
-              </a>
-              <a
-                className={`${styles["nav-item-desktop"]} ${
-                  currentPath === "/FAQs" && styles["nav-item-desktop-active"]
-                } `}
-                href="/FAQs"
-              >
-                FAQs
-              </a>
-              <a
-                className={`${styles["nav-item-desktop"]} ${
-                  currentPath === "/GoingPrivate" &&
-                  styles["nav-item-desktop-active"]
-                } `}
-                href="/GoingPrivate"
-              >
-                Going private
-              </a>
-              <a
-                className={`${styles["nav-item-desktop"]} ${
-                  currentPath === "/Legals" && styles["nav-item-desktop-active"]
-                } `}
-                href="/Legals"
-              >
-                Legals
-              </a>
+              <Link href="/">
+                <a
+                  className={`${styles["nav-item-desktop"]} ${
+                    currentPath === "/" && styles["nav-item-desktop-active"]
+                  } `}
+                >
+                  Home
+                </a>
+              </Link>
+              <Link href="/UsAndYou">
+                <a
+                  className={`${styles["nav-item-desktop"]} ${
+                    currentPath === "/UsAndYou" &&
+                    styles["nav-item-desktop-active"]
+                  } `}
+                >
+                  Us and you
+                </a>
+              </Link>
+              <Link href="/FAQs">
+                <a
+                  className={`${styles["nav-item-desktop"]} ${
+                    currentPath === "/FAQs" && styles["nav-item-desktop-active"]
+                  } `}
+                >
+                  FAQs
+                </a>
+              </Link>
+              <Link href="/GoingPrivate">
+                <a
+                  className={`${styles["nav-item-desktop"]} ${
+                    currentPath === "/GoingPrivate" &&
+                    styles["nav-item-desktop-active"]
+                  } `}
+                >
+                  Going private
+                </a>
+              </Link>
+              <Link href="/Legals">
+                <a
+                  className={`${styles["nav-item-desktop"]} ${
+                    currentPath === "/Legals" &&
+                    styles["nav-item-desktop-active"]
+                  } `}
+                >
+                  Legals
+                </a>
+              </Link>
             </div>
           </motion.div>
         ) : null}

@@ -61,13 +61,13 @@ function FAQs() {
           } `}
         >
           <div className={styles.question}>
-            2. But other medical tourism sites don't charge?
+            2. But other medical tourism sites don&apost charge?
           </div>
           <div className={styles.response}>
             There is no such thing as a free lunch. Other websites earn their
             money by directing you to the hospitals that pay them a bounty for
-            finding their patients. Perhaps they'll tell you the amount of their
-            cut, perhaps they won't. We prefer transparency, the best
+            finding their patients. Perhaps they&aposll tell you the amount of
+            their cut, perhaps they won&apost. We prefer transparency, the best
             disinfectant.
           </div>
         </motion.div>

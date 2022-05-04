@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../styles/usAndYou.module.css";
 import { motion, AnimatePresence } from "framer-motion";
-import { blur } from "../Pages/UsAndYou.js";
 
 function UsAndYouText1({ setBlurOn, blurOn }) {
   function blur(elementNumber) {

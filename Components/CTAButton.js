@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Styles/CTAButton.module.css";
+import styles from "../styles/CTAButton.module.css";
 
 function CTAButton() {
   return (

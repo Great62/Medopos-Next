@@ -1,4 +1,4 @@
-import styles from "../Styles/healthlists.module.css";
+import styles from "../styles/healthlists.module.css";
 import { nhsWaitingLists } from "../Data";
 import React from "react";
 import hospital from "../Pictures/batiment-de-lhopital.png";

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Styles/explanationSteps.module.css";
+import styles from "../styles/explanationSteps.module.css";
 import call from "../Pictures/Group video-bro.svg";
 import destination from "../Pictures/Destination-bro.svg";
 import treatment from "../Pictures/Cardiologist-bro.svg";

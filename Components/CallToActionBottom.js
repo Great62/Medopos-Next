@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { init } from "@emailjs/browser";
-import styles from "../Styles/CallToActionBottom.module.css";
+import styles from "../styles/CallToActionBottom.module.css";
 
 function CallToActionBottom() {
   const [emailSubject, setEmailSubject] = useState("");

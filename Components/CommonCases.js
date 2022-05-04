@@ -1,4 +1,4 @@
-import styles from "../Styles/healthlists.module.css";
+import styles from "../styles/healthlists.module.css";
 import React, { useEffect, useState } from "react";
 import { commonCases } from "../Data";
 import operation from "../Pictures/chirurgie-robotique.png";

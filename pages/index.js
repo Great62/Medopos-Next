@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/landingPage.module.css";
 import { Link } from "react-scroll";
+import Head from "next/head";
 
 //Component imports
 import CTAButton from "../Components/CTAButton";
@@ -17,6 +18,14 @@ import Footer from "../Components/Footer";
 function LandingPage() {
   return (
     <div>
+      <Head>
+        <title>Medopos - Health treatement overseas | CompassElective</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="Medopos is a health service that provides you with private treatment overseas to skip local waiting lists and get treated quickly"
+        />
+      </Head>
       <NavBar />
       <div className={styles.block2}>
         <Pitch />

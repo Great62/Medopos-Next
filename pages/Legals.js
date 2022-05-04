@@ -3,6 +3,7 @@ import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
 import styles from "../styles/legals.module.css";
 import stylesUsAndYou from "../styles/usAndYou.module.css";
+import Head from "next/head";
 
 //articles
 import Article1 from "../Components/articles/Article1";
@@ -25,6 +26,14 @@ import Article16 from "../Components/articles/Article16";
 function Legals() {
   return (
     <div className={styles["legals-container"]}>
+      <Head>
+        <title>Medopos - Health treatement overseas | Legals</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="Find out more about CompassElective Ltd, the company providing the Medopos services"
+        />
+      </Head>
       <div className={styles["legals-titles"]}>
         <div className={styles["title"]}>COMPASS ELECTIVE HEALTH LIMITED</div>
         <div className={stylesUsAndYou["UsAndYou-title"]}>

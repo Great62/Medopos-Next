@@ -2,10 +2,19 @@ import React from "react";
 import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
 import styles from "../styles/usAndYou.module.css";
+import Head from "next/head";
 
 function GoingPrivate() {
   return (
     <div className={styles["UsAndYou-container"]}>
+      <Head>
+        <title>Medopos - Health treatement overseas | Going private</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="Learn more about going private with Medopos, the health service that provides you with treatment overseas allowing you to skip local waiting lists and get treated quickly"
+        />
+      </Head>
       <NavBar />
       <div className={styles["UsAndYou-text-container"]}>
         <div className={styles["UsAndYou-title"]}>

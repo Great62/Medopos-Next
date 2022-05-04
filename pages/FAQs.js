@@ -3,6 +3,7 @@ import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
 import styles from "../styles/FAQs.module.css";
 import { motion, AnimatePresence } from "framer-motion";
+import Head from "next/head";
 
 function FAQs() {
   const [blurOn, setBlurOn] = useState(0);
@@ -17,6 +18,16 @@ function FAQs() {
 
   return (
     <div className={styles["FAQ-Page"]}>
+      <Head>
+        <title>
+          Medopos - Health treatement overseas | Frequently asked questions
+        </title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="See our frequently asked questions about Medopos, the health service that provides you with private treatment overseas to skip local waiting lists and get treated quickly"
+        />
+      </Head>
       <AnimatePresence>
         {blurOn ? (
           <motion.div

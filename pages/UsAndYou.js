@@ -6,12 +6,21 @@ import UsAndYouText3 from "../Components/UsAndYouText3";
 import Footer from "../Components/Footer";
 import NavBar from "../Components/NavBar";
 import { motion, AnimatePresence } from "framer-motion";
+import Head from "next/head";
 
 function UsAndYou() {
   const [blurOn, setBlurOn] = useState(0);
 
   return (
     <div className={styles["UsAndYou-container"]}>
+      <Head>
+        <title>Medopos - Health treatement overseas | Learn more</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta
+          name="description"
+          content="Learn more about Medopos and our service provided to you as a client. Find out more about our overseas treatment process and how you can profit from it"
+        />
+      </Head>
       <AnimatePresence>
         {blurOn ? (
           <motion.div

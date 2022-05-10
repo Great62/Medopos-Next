@@ -17,9 +17,8 @@ function ExplanationSteps() {
         <div className={styles["step-text"]}>
           <h3 className={styles["step-title"]}>Give us a call</h3>
           <h4 className={styles["step-explained"]}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In est
-            exercitationem totam commodi ullam deleniti molestias facilis non at
-            odio.
+            Discuss with us your current situation, your needs, and
+            availability. We will also do a quick check-up of the requirements
           </h4>
         </div>
       </div>
@@ -27,9 +26,8 @@ function ExplanationSteps() {
         <div className={styles["step-text"]}>
           <h3 className={styles["step-title"]}>Go to your destination</h3>
           <h4 className={styles["step-explained"]}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In est
-            exercitationem totam commodi ullam deleniti molestias facilis non at
-            odio.
+            After providing you with a suitable location you for private
+            treatment, you will be able to go to the destination for treatment
           </h4>
         </div>
         <div className={styles["step-picture"]}>
@@ -43,9 +41,8 @@ function ExplanationSteps() {
         <div className={styles["step-text"]}>
           <h3 className={styles["step-title"]}>Get treated</h3>
           <h4 className={styles["step-explained"]}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. In est
-            exercitationem totam commodi ullam deleniti molestias facilis non at
-            odio.
+            Settle down, meet our trusted top physicians who will perform your
+            treatment with little to no delay !
           </h4>
         </div>
       </div>

@@ -3,6 +3,7 @@ import styles from "../styles/Pitch.module.css";
 import flight from "../Pictures/Flying around the world-pana.svg";
 import flight1 from "../Pictures/Flying around the world-bro.svg";
 import flight2 from "../Pictures/Flying around the world-amico.svg";
+import europeMap from "../Pictures/europe.svg";
 import Image from "next/image";
 
 function Pitch() {

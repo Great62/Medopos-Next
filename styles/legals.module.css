@@ -19,9 +19,6 @@
     border-radius: 10px;
     width: 80%;
 }
-.UsAndYou-text-container:hover {
-    cursor: pointer;
-}
 
 .UsAndYou-paragraph {
     padding: 1em;

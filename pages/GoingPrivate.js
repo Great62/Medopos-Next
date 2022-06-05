@@ -16,7 +16,7 @@ function GoingPrivate() {
         />
       </Head>
       <NavBar />
-      <div className={styles["UsAndYou-text-container"]}>
+      <div className={styles["UsAndYou-text-container-going-private"]}>
         <div className={styles["UsAndYou-title"]}>
           Why go private? A short introduction to the International Medical
           Industry

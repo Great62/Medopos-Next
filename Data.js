@@ -1,4 +1,4 @@
-export let commonCases1 = [
+export const commonCases1 = [
   "Hernia",
   "Replacement hip",
   "Replacement knee",
@@ -8,7 +8,7 @@ export let commonCases1 = [
   "Urology",
   "Orthopaedics",
 ];
-export let commonCases = [
+export const commonCases = [
   "Hernia",
   "Replacement hip",
   "Replacement knee",
@@ -28,7 +28,7 @@ export let commonCases = [
   "Haematology XXX",
 ];
 
-export let commonCases2 = [
+export const commonCases2 = [
   "Restorative dentistry",
   "Neurosurgery",
   "Tonsillectomy",
@@ -55,7 +55,7 @@ export let nhsWaitingLists = [
   "other 1,173,000",
 ];
 
-export let services = [
+export const services = [
   "dental surgery",
   "orthopaedics",
   "bariatric surgery",
@@ -150,7 +150,6 @@ export let services = [
   "neurophysiology",
   "thoracic surgery",
   "mastectomy",
-  "",
   "orthodontics",
   "haemophilia",
   "stroke",
@@ -214,4 +213,20 @@ export let services = [
   "endoscopic surgery (NOTES)",
   "myomectomy (uterine fibroids)",
   "varicose vein repair",
+  "HIP (replacement / repair / revision / operation)",
+  "Eye surgery / Cataract",
+  "Prostate / urology",
+  "Hernia",
+  "Spinal surgery",
+  "Gall bladder",
+  "Dental / Orthodontics",
+  "Cancer treatments",
+  "Hand surgery",
+  "Arthritis",
+  "Skin",
+  "Weight loss",
+  "Cosmetic surgery",
+  "Heart",
+  "Rehabilitation",
+  "Gynaecology",
 ];

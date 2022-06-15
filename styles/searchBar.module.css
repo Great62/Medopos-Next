@@ -51,12 +51,31 @@
     z-index: 5;
 }
 
+.data-search-result::-webkit-scrollbar {
+    width: 5px;
+  }
+.data-search-result::-webkit-scrollbar-track {
+    background: rgba(116, 116, 116, 0);
+  }
+.data-search-result::-webkit-scrollbar-thumb {
+    background: rgb(55, 68, 88);
+    border-radius: 5px;
+  }
+.data-search-result::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
 .data-search-item {
     padding-left: 10px;
     display: flex;
     align-items: center;
     margin-top: 5px;
-    width: 300px;
+    width: 100%;
     height: 40px;
     background-color: aliceblue;
-  }
+    transition: all 300ms;
+}
+.data-search-item:hover {
+    background-color: rgb(202, 230, 255);
+    cursor: pointer;
+}

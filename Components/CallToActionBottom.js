@@ -3,9 +3,12 @@ import emailjs from "@emailjs/browser";
 import { init } from "@emailjs/browser";
 import styles from "../styles/CallToActionBottom.module.css";
 
-function CallToActionBottom() {
-  const [emailSubject, setEmailSubject] = useState("");
-
+function CallToActionBottom({
+  emailSubject,
+  setEmailSubject,
+  setMessageEmail,
+  messageEmail,
+}) {
   init("user_XG4i0VShzDINGA95mIWTy");
   //All usestates
 
@@ -77,6 +80,8 @@ function CallToActionBottom() {
               type="text"
               placeholder="Message"
               name="message"
+              value={messageEmail}
+              onChange={(e) => setMessageEmail(e.target.value)}
             />
           </div>
         </div>

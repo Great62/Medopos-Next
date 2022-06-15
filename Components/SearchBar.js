@@ -4,10 +4,19 @@ import searchSvg from "../Pictures/search_black_24dp.svg";
 import closeSvg from "../Pictures/close_black_24dp.svg";
 import { services } from "../Data";
 import Image from "next/image";
+import { Link } from "react-scroll";
 
-function SearchBar() {
+function SearchBar({ setMessageEmail, setEmailSubject }) {
   const [filteredData, setFilteredData] = useState([]);
   const [wordEntered, setWordEntered] = useState("");
+
+  const browseItemClick = (value) => {
+    console.log(value);
+    setEmailSubject(value[0].toUpperCase() + value.slice(1));
+    setMessageEmail(
+      `Hi I would like to contact you about your ${value} service.`
+    );
+  };
 
   const handleFilter = (event) => {
     const searchWord = event.target.value;
@@ -58,13 +67,16 @@ function SearchBar() {
           <div className={styles["data-search-result"]}>
             {filteredData.slice(0, 15).map((value, key) => {
               return (
-                <div
+                <Link
+                  to="cta"
+                  smooth="true"
                   key={key}
                   className={styles["data-search-item"]}
                   target="_blank"
+                  onClick={() => browseItemClick(value)}
                 >
-                  <p>{value}</p>
-                </div>
+                  <p>{value[0].toUpperCase() + value.slice(1)}</p>
+                </Link>
               );
             })}
           </div>

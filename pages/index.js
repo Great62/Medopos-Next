@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/landingPage.module.css";
 import { Link } from "react-scroll";
 import Head from "next/head";
@@ -16,6 +16,9 @@ import ExplanationSteps from "../Components/ExplanationSteps";
 import Footer from "../Components/Footer";
 
 function LandingPage() {
+  const [emailSubject, setEmailSubject] = useState("");
+  const [messageEmail, setMessageEmail] = useState("");
+
   return (
     <div>
       <Head>
@@ -29,7 +32,10 @@ function LandingPage() {
       <NavBar />
       <div className={styles.block2}>
         <Pitch />
-        <SearchBar />
+        <SearchBar
+          setEmailSubject={setEmailSubject}
+          setMessageEmail={setMessageEmail}
+        />
         <PitchImage />
         <Link to="cta" smooth={true}>
           <CTAButton />
@@ -46,7 +52,12 @@ function LandingPage() {
         <CommonCases />
       </div>
       <div className={styles.block4} id="cta">
-        <CallToActionBottom />
+        <CallToActionBottom
+          emailSubject={emailSubject}
+          setEmailSubject={setEmailSubject}
+          messageEmail={messageEmail}
+          setMessageEmail={setMessageEmail}
+        />
       </div>
       <Footer />
     </div>

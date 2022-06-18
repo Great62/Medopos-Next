@@ -48,17 +48,39 @@ function CallToActionBottom({
         <div className={styles["CTA-Title"]}>Contact Us</div>
         <div className={styles["Bottom-CTA-Form-Container"]}>
           <div className={styles["CTA-Form-Block"]}>
+            <div
+              className={styles["InputBox-CTA"]}
+              style={{ padding: "0", display: "flex", gap: "0.1em" }}
+              type="text"
+            >
+              <input
+                type="text"
+                className={styles["InputBox-CTA"]}
+                style={{ width: "100%" }}
+                placeholder="Name"
+                name="name"
+                required
+              />
+              <input
+                type="number"
+                className={styles["InputBox-CTA"]}
+                style={{ width: "100%" }}
+                placeholder="Phone"
+                name="phone"
+                required
+              />
+              <input
+                type="text"
+                className={styles["InputBox-CTA"]}
+                style={{ width: "100%" }}
+                placeholder="Postcode"
+                name="postcode"
+              />
+            </div>
             <input
               className={styles["InputBox-CTA"]}
               required
-              type="text"
-              placeholder="Name"
-              name="name"
-            />
-            <input
-              className={styles["InputBox-CTA"]}
-              required
-              type="text"
+              type="email"
               placeholder="Email"
               name="email"
             />

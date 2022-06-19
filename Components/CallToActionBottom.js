@@ -67,7 +67,6 @@ function CallToActionBottom({
                 style={{ width: "100%" }}
                 placeholder="Phone"
                 name="phone"
-                required
               />
               <input
                 type="text"

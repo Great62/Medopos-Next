@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { init } from "@emailjs/browser";
 import styles from "../styles/CallToActionBottom.module.css";
@@ -11,6 +11,7 @@ function CallToActionBottom({
 }) {
   init("user_XG4i0VShzDINGA95mIWTy");
   //All usestates
+  const [phoneNum, setPhoneNum] = useState("");
 
   function SendEmail(e) {
     e.preventDefault();
@@ -38,6 +39,10 @@ function CallToActionBottom({
     e.target.reset();
   }
 
+  useEffect(() => {
+    console.log(phoneNum);
+  }, [phoneNum]);
+
   return (
     <div className={styles["Bottom-CTA-Container"]}>
       <form
@@ -63,10 +68,16 @@ function CallToActionBottom({
               />
               <input
                 type="number"
-                className={styles["InputBox-CTA"]}
+                className={[
+                  styles[`InputBox-CTA`],
+                  phoneNum.length &&
+                    phoneNum.length <= 10 &&
+                    styles["invalidInput"],
+                ].join(" ")}
                 style={{ width: "100%" }}
                 placeholder="Phone"
                 name="phone"
+                onChange={(e) => setPhoneNum(String(e.target.value))}
               />
               <input
                 type="text"
@@ -106,7 +117,11 @@ function CallToActionBottom({
             />
           </div>
         </div>
-        <input type="submit" className={styles["Send-message-CTA"]} />
+        <input
+          type="submit"
+          disabled={phoneNum.length && phoneNum.length <= 10 && true}
+          className={styles["Send-message-CTA"]}
+        />
       </form>
     </div>
   );

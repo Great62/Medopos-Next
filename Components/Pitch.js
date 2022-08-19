@@ -1,9 +1,5 @@
 import React from "react";
 import styles from "../styles/Pitch.module.css";
-import flight from "../Pictures/Flying around the world-pana.svg";
-import flight1 from "../Pictures/Flying around the world-bro.svg";
-import flight2 from "../Pictures/Flying around the world-amico.svg";
-import europeMap from "../Pictures/europe.svg";
 import euroMap from "../Pictures/euro_map_.png";
 import Image from "next/image";
 
@@ -20,7 +16,12 @@ function Pitch() {
         </h4>
       </div>
       <div className={styles["pitch-image-desktop"]}>
-        <Image src={euroMap} alt="" className={styles["pitch-image-desktop"]} />
+        <Image
+          priority={true}
+          src={euroMap}
+          alt=""
+          className={styles["pitch-image-desktop"]}
+        />
       </div>
     </div>
   );

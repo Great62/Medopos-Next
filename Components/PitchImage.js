@@ -10,7 +10,12 @@ function PitchImage() {
   return (
     <div className={styles["pitch-image-container"]}>
       <div className={styles["pitch-image"]}>
-        <Image src={euroMap} alt="" className={styles["pitch-image"]} />
+        <Image
+          priority={true}
+          src={euroMap}
+          alt=""
+          className={styles["pitch-image"]}
+        />
       </div>
     </div>
   );

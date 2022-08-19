@@ -13,36 +13,6 @@ function CallToActionBottom({
   //All usestates
   const [phoneNum, setPhoneNum] = useState("");
 
-  function SendEmail(e) {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_91qsexy",
-        "template_l1r5tki",
-        e.target,
-        "user_XG4i0VShzDINGA95mIWTy"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          if (result.text === "OK") {
-            console.log("Email sent");
-          } else {
-            console.log("Email failed to send");
-          }
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-  }
-
-  useEffect(() => {
-    console.log(phoneNum);
-  }, [phoneNum]);
-
   return (
     <div className={styles["Bottom-CTA-Container"]}>
       <form

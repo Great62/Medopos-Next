@@ -11,10 +11,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .page-link {
     color: aliceblue;
     text-decoration: none;
+    text-align: center;
+}
+
+@media(min-width: 375px) {
+    .page-links-container {
+        gap: 30px;
+    }
 }
